@@ -2,7 +2,7 @@ FROM yasuoyuhao/node-docker-image-with-tini:14.16.1-alpine3.11
 
 
 # Build arguments
-ARG app_version='1.0.1-r2'
+ARG app_version='1.0.2-r4'
 ARG user_name='user'
 ARG user_id='1087'
 ARG group_name='mount'
