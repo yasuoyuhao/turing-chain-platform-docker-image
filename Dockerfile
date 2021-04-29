@@ -1,4 +1,5 @@
-FROM yasuoyuhao/node-docker-image-with-tini:12-alpine
+FROM yasuoyuhao/node-docker-image-with-tini:14.16.1-alpine3.11
+
 
 # Build arguments
 ARG app_version='1.0.1-r2'
